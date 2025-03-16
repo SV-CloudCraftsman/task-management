@@ -7,7 +7,6 @@ const CreateTask = () => {
   const [description, setDescription] = useState("");
   const [isCompleted, setIsCompleted] = useState(false);
   const [message, setMessage] = useState({ text: "", variant: "" });
-  const [darkMode, setDarkMode] = useState(false); // Dark mode state
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent page reload
